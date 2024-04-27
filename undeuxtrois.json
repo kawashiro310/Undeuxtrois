@@ -24,15 +24,25 @@
             "jar": "./jar/XBPQ.jar"
         },
 	    {
-	    	"key":"csp_njav",
-			"name":"💖njav",
+	    	"key": "csp_njav",
+			"name": "💖njav",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "./json/njav.json",
+			"jar": "./jar/XBPQ.jar"
+	    },
+	    {
+	    	"key":"ppp",
+			"name":"ppp┃BPQ",
 			"type":3,
 			"api":"csp_XBPQ",
 			"searchable":1,
 			"quickSearch":1,
-			"filterable":1,
-			"ext": "./json/njav.json",
-			"jar":"./jar/XBPQ.jar"
+			"playerType": 1,
+			"ext": "./json/ppp.json"
 	    }
     ]
 }
