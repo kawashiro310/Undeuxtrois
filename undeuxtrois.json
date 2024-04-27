@@ -2,6 +2,15 @@
 	"spider": "./jar/fan.txt;md5;ff2a62d70456f5ccc45f5e17b24d4a45",
 	"wallpaper": "http://饭太硬.top/深色壁纸/api.php",
     "sites":[
+	    {
+	    	"key": "csp_Ying",
+	    	"name": "💮樱花┃动漫",
+    		"type": 3,
+	    	"api": "csp_Ying",
+		    "searchable": 1,
+		    "quickSearch": 1,
+		    "changeable": 1
+	    },
         {
             "key": "langqun",
             "name": "🔞狼群影院",
@@ -15,13 +24,15 @@
             "jar": "./jar/XBPQ.jar"
         },
 	    {
-	    	"key":"csp_Ying",
-	    	"name":"💮樱花┃动漫",
-    		"type":3,
-	    	"api":"csp_Ying",
-		    "searchable":1,
-		    "quickSearch":1,
-		    "changeable":1
+	    	"key":"csp_njav",
+			"name":"💖njav",
+			"type":3,
+			"api":"csp_XBPQ",
+			"searchable":1,
+			"quickSearch":1,
+			"filterable":1,
+			"ext": "./json/njav.json",
+			"jar":"./jar/XBPQ.jar"
 	    }
     ]
 }
