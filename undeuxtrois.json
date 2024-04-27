@@ -1,25 +1,27 @@
 {
-"sites":[
-    {
-        "key": "langqun",
-        "name": "🔞狼群影院",
-        "type": 3,
-        "changeable": 1,
-        "searchable": 1,
-        "quickSearch": 1,
-        "filterable": 1,
-        "api": "csp_XBPQ",
-        "ext": "./json/wolf.json",
-        "jar": "./jar/XBPQ.jar"
-    },
-	{
-		"key":"csp_Ying",
-		"name":"💮樱花┃动漫",
-		"type":3,
-		"api":"csp_Ying",
-		"searchable":1,
-		"quickSearch":1,
-		"changeable":1
-	}
-]
+	"spider": "./jar/fan.txt;md5;ff2a62d70456f5ccc45f5e17b24d4a45",
+	"wallpaper": "http://饭太硬.top/深色壁纸/api.php",
+    "sites":[
+        {
+            "key": "langqun",
+            "name": "🔞狼群影院",
+            "type": 3,
+            "changeable": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "api": "csp_XBPQ",
+            "ext": "./json/wolf.json",
+            "jar": "./jar/XBPQ.jar"
+        },
+	    {
+	    	"key":"csp_Ying",
+	    	"name":"💮樱花┃动漫",
+    		"type":3,
+	    	"api":"csp_Ying",
+		    "searchable":1,
+		    "quickSearch":1,
+		    "changeable":1
+	    }
+    ]
 }
