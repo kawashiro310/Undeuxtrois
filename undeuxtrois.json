@@ -42,7 +42,8 @@
 			"searchable":1,
 			"quickSearch":1,
 			"playerType": 1,
-			"ext": "./json/ppp.json"
+			"ext": "./json/ppp.json",
+			"jar": "./jar/XBPQ.jar"
 	    }
     ]
 }
