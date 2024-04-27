@@ -11,6 +11,40 @@
 		    "quickSearch": 1,
 		    "changeable": 1
 	    },
+		{
+			"key": "玉兔",
+			"name": "玉兔🔞vpn",
+			"type": 0,
+			"style": {"type":"rect", "ratio":1.485},
+			"api": "https://apiyutu.com/api.php/provide/vod/at/xml/",
+			"searchable": 1,
+			"quickSearch": 1
+		},
+		{
+			"key": "MissAV",
+			"name": "MissAV🔞vpn",
+			"type":3,
+			"api": "csp_Miss",
+			"searchable": 1
+		},
+		{
+			"key": "Jable",
+			"name": "Jable🔞vpn",
+			"type": 3,
+			"api": "csp_Jable",
+			"searchable": 1
+		},
+		{
+			"key": "Taohuazu",
+			"name": "桃花族",
+			"type":3,
+			"api": "csp_Taohuazu",
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 1,
+			"filterable": 0,
+			"timeout":60
+		},
         {
             "key": "langqun",
             "name": "🔞狼群影院",
