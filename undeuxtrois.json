@@ -1,83 +1,179 @@
 {
-	"spider": "./jar/fan.txt;./jar/18.jar;md5;ff2a62d70456f5ccc45f5e17b24d4a45",
-	"wallpaper": "http://饭太硬.top/深色壁纸/api.php",
-    "sites":[
-	    {
-	    	"key": "csp_Ying",
-	    	"name": "💮樱花┃动漫",
-    		"type": 3,
-	    	"api": "csp_Ying",
-		    "searchable": 1,
-		    "quickSearch": 1,
-		    "changeable": 1
-	    },
-		{
-			"key": "玉兔",
-			"name": "玉兔🔞vpn",
-			"type": 0,
-			"style": {"type":"rect", "ratio":1.485},
-			"api": "https://apiyutu.com/api.php/provide/vod/at/xml/",
-			"searchable": 1,
-			"quickSearch": 1
-		},
-		{
-			"key": "MissAV",
-			"name": "MissAV🔞vpn",
-			"type":3,
-			"api": "csp_Miss",
-			"searchable": 1
-		},
-		{
-			"key": "Jable",
-			"name": "Jable🔞vpn",
-			"type": 3,
-			"api": "csp_Jable",
-			"searchable": 1
-		},
-		{
-			"key": "Taohuazu",
-			"name": "桃花族",
-			"type":3,
-			"api": "csp_Taohuazu",
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 1,
-			"filterable": 0,
-			"timeout":60
-		},
-        {
-            "key": "langqun",
-            "name": "🔞狼群影院",
-            "type": 3,
-            "changeable": 1,
+    "spider": "./jar/fan.txt;./jar/18.jar;md5;ff2a62d70456f5ccc45f5e17b24d4a45",
+    "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
+    "sites": [{
+            "key": "155",
+            "name": "18+性交采集",
+            "type": 0,
+            "playerType": 2,
+            "api": "https://155api.com/api.php/provide/vod/at/xml",
+            "searchable": 0,
+            "quickSearch": 0
+        }, {
+            "key": "奥斯卡资源网",
+            "name": "18+奥斯卡资源网",
+            "type": 1,
+            "api": "https://aosikazy.com/api.php/provide/vod/"
+        }, {
+            "key": "fhapi9.com",
+            "name": "18+1",
+            "type": 1,
+            "api": "http://fhapi9.com/api.php/provide/vod/",
+            "searchable": 1,
+            "recordable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.33
+            }
+        }, {
+            "key": "msnii.com",
+            "name": "18+2",
+            "type": 0,
+            "api": "https://www.msnii.com/api/xml.php",
+            "searchable": 1,
+            "recordable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.33
+            }
+        }, {
+            "key": "gdlsp.com",
+            "name": "18+3",
+            "type": 0,
+            "api": "https://www.gdlsp.com/api/xml.php",
+            "searchable": 1,
+            "recordable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.33
+            }
+        }, {
+            "key": "kxgav.com",
+            "name": "18+4",
+            "type": 0,
+            "api": "https://www.kxgav.com/api/xml.php",
+            "searchable": 1,
+            "recordable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.33
+            }
+        }, {
+            "key": "xrbsp.com",
+            "name": "18+5",
+            "type": 0,
+            "api": "https://www.xrbsp.com/api/xml.php",
+            "searchable": 1,
+            "recordable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.33
+            }
+        }, {
+            "key": "pgxdy.com",
+            "name": "18+6",
+            "type": 0,
+            "api": "https://www.pgxdy.com/api/xml.php",
+            "searchable": 1,
+            "recordable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.33
+            }
+        }, {
+            "key": "kkzy.me",
+            "name": "18+7",
+            "type": 1,
+            "api": "https://kkzy.me/api.php/provide/vod/",
+            "searchable": 1,
+            "recordable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.33
+            }
+        }, {
+            "key": "apittzy.com",
+            "name": "18+8",
+            "type": 1,
+            "api": "https://apittzy.com/api.php/provide/vod/",
+            "searchable": 1,
+            "recordable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.33
+            }
+        }, {
+            "key": "lbapi9.com",
+            "name": "18+9",
+            "type": 1,
+            "api": "https://lbapi9.com/api.php/provide/vod/",
+            "searchable": 1,
+            "recordable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.33
+            }
+        }, {
+            "key": "apilj.com",
+            "name": "18+10",
+            "type": 1,
+            "api": "http://apilj.com/api.php/provide/vod/at/json/",
+            "searchable": 1,
+            "recordable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.33
+            }
+        }, {
+            "key": "dadiapi.com",
+            "name": "18+11",
+            "type": 0,
+            "api": "http://dadiapi.com/api.php",
+            "searchable": 1,
+            "recordable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.33
+            }
+        }, {
+            "key": "api.sexnguon.com",
+            "name": "18+12",
+            "type": 1,
+            "api": "http://api.sexnguon.com/api.php/provide/vod/",
+            "searchable": 1,
+            "recordable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.33
+            }
+        }, {
+            "key": "lbapiby.com",
+            "name": "18+13",
+            "type": 0,
+            "api": "http://lbapiby.com/api.php/provide/vod/at/xml",
+            "searchable": 1,
+            "recordable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.33
+            }
+        }, {
+            "key": "鲨鱼18+",
+            "name": "18+鲨鱼",
+            "type": 0,
+            "api": "https://shayuapi.com/api.php/Seacms/vod",
+            "searchable": 0,
+            "quickSearch": 1,
+            "filterable": 0
+        }, {
+            "key": "(18+)探探资源",
+            "name": "18+探探资源",
+            "type": 0,
+            "api": "https://apittzy.com/api.php/provide/vod/at/xml",
+            "playUrl": "https://jiexi.ttbfp1.com/m3u8/?url=",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1,
-            "api": "csp_XBPQ",
-            "ext": "./json/wolf.json",
-            "jar": "./jar/XBPQ.jar"
-        },
-	    {
-	    	"key": "csp_njav",
-			"name": "💖njav",
-			"type": 3,
-			"api": "csp_XBPQ",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"ext": "./json/njav.json",
-			"jar": "./jar/XBPQ.jar"
-	    },
-	    {
-	    	"key":"ppp",
-			"name":"ppp┃BPQ",
-			"type":3,
-			"api":"csp_XBPQ",
-			"searchable":1,
-			"quickSearch":1,
-			"playerType": 1,
-			"ext": "./json/ppp.json",
-			"jar": "./jar/XBPQ.jar"
-	    }
+            "filterable": 0
+        }
     ]
 }
